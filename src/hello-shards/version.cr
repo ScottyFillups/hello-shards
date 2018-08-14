@@ -1,3 +1,3 @@
-module Hello::Shards
+module Hello
   VERSION = "0.1.0"
 end

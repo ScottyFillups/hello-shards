@@ -1,6 +1,8 @@
 # hello-shards
 
-TODO: Write a description here
+My first shard!
+
+[![GitHub release](https://img.shields.io/github/release/ScottyFillups/hello-shards.svg)](https://github.com/ScottyFillups/hello-shards/releases)
 
 ## Installation
 
@@ -9,24 +11,21 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   hello-shards:
-    github: your-github-user/hello-shards
+    github: ScottyFillups/hello-shards
 ```
 
 ## Usage
 
 ```crystal
 require "hello-shards"
+
+# Print "hello, shards." to stdout
+Hello.shards()
 ```
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/your-github-user/hello-shards/fork>)
+1. Fork it (<https://github.com/ScottyFillups/hello-shards/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -34,4 +33,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [your-github-user](https://github.com/your-github-user) Philip Scott - creator, maintainer
+- [ScottyFillups](https://github.com/ScottyFillups) Philip Scott - creator, maintainer

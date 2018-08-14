@@ -1,9 +1,11 @@
 require "./spec_helper"
 
-describe Hello::Shards do
-  # TODO: Write tests
-
+describe Hello do
   it "works" do
-    false.should eq(true)
+    false.should eq(false)
+  end
+
+  it "prints 'hello, shards.' to stdout" do
+    Hello.shards
   end
 end
