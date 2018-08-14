@@ -8,6 +8,4 @@ deploy:
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   project_name: hello-shards
-  on:
-    branch: master
 local_dir: docs
