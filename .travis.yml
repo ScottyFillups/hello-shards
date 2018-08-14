@@ -2,10 +2,10 @@ language: crystal
 script:
   - crystal spec
   - crystal tool format --check
-  - crystal docs
+  - crystal docs && ls
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
+  local_dir: docs
   project_name: hello-shards
-local-dir: docs
