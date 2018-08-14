@@ -1,6 +1,10 @@
 require "./hello-shards/*"
 
-# TODO: Write documentation for `Hello::Shards`
-module Hello::Shards
-  # TODO: Put your code here
+# `Hello::shards` - Prints "hello, shards" to `stdout`
+module Hello
+  extend self
+
+  def shards
+    puts "hello, shards."
+  end
 end
